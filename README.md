@@ -1,4 +1,4 @@
-# Meraki Security Baseline
+# Meraki Security Audit
 
 This Python script helps you check if your Meraki MX firewalls are configured according to Cisco Meraki's best practice design. The script checks for implementation of the best practices according to the following document: [General MX Best Practices](https://documentation.meraki.com/Architectures_and_Best_Practices/Cisco_Meraki_Best_Practice_Design/Best_Practice_Design_-_MX_Security_and_SD-WAN/General_MX_Best_Practices)
 

@@ -36,11 +36,11 @@ The script will output a table with the following information for each MX firewa
 - Spoof protection status
 - Open Ports from the Internet
 
-| Organization                  | Network                             | License Edition   | Anti-Malware | Intrusion Prevention | Spoof Protection | Open Ports       |
-| :---------------------------- | :---------------------------------- | :---------------- | :----------- | :------------------- | :--------------- | :--------------- |
-| Org A                         | Org A Net A                         | Advanced Security | enabled      | prevention           | block            | 80               |
-| Org B                         | Org B Net A                         | Advanced Security | enabled      | prevention           | block            | 25,443           |
-| Org C                         | Org C Net A                         | Enterprise        | disabled     | disabled             | log              | None             |
+| Organization                  | Network                             | License Edition   | Anti-Malware (CIS 10) | Intrusion Prevention (CIS 13) | Spoof Protection (CIS 7) | Open Ports (CIS 9)
+| :---------------------------- | :---------------------------------- | :---------------- | :-------------------- | :---------------------------- | :----------------------- | :--------------- |
+| Org A                         | Org A Net A                         | Advanced Security | enabled               | prevention                    | block                    | 80               |
+| Org B                         | Org B Net A                         | Advanced Security | enabled               | prevention                    | block                    | 25,443           |
+| Org C                         | Org C Net A                         | Enterprise        | disabled              | disabled                      | log                      | None             |
 
 ## License
 This script is licensed under the GPL-3.0 License. See the LICENSE file for more information.

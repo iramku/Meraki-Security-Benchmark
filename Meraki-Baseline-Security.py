@@ -13,7 +13,7 @@ with open("api_keys_org_ids.txt", "r") as f:
     lines = f.readlines()
 
 # Create a table header
-table.field_names = ["Organization", "Network", "License Edition", "Anti-Malware", "Intrusion Prevention", "Spoof Protection", "Open Ports From INT"]
+table.field_names = ["Organization", "Network", "License Edition", "Anti-Malware (CIS 10)", "Intrusion Prevention (CIS 13)", "Spoof Protection (CIS 7)", "Open Ports From INT (CIS 9)"]
 table.align["Organization"] = "l"
 table.align["Network"] = "l"
 table.align["License Edition"] = "l"
